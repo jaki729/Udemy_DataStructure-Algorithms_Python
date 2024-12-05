@@ -1,7 +1,3 @@
-#   Created by Elshad Karimov on 05/04/2020.
-#   Copyright © 2020 AppMillers. All rights reserved.
-
-
 import numpy as np
 
 twoDArray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9] ])
@@ -46,3 +42,16 @@ print(searchTDArray(twoDArray, 444))
 
 newTDArray = np.delete(twoDArray, 1, axis=1)
 print(newTDArray)
+
+'''
+when to use array?
+- when you have a fixed size
+- to store multiple values in a same data type
+- random access
+
+when not to use array?
+- when you have a dynamic size
+- to store multiple values in a different data type
+- same data type but different size
+- reverse access/memory
+'''

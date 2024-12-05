@@ -1,5 +1,3 @@
-#   Created by Elshad Karimov on 04/04/2020.
-#   Copyright © 2020 AppMillers. All rights reserved.
 from array import *
 
 # 1. Create an array and traverse. 
@@ -57,7 +55,7 @@ print("Step 10")
 my_array.reverse()
 print(my_array)
 
-# 11. Get array buffer information through buffer_info() method
+# 11. Get array buffer information through buffer_info() method for getting address in which array is stored
 print("Step 11")
 print(my_array.buffer_info())
 
@@ -82,8 +80,3 @@ print("Step 14")
 # 16. Slice Elements from an array
 print("Step 16")
 print(my_array[:])
-
-
-
-
-
